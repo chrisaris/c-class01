@@ -10,6 +10,7 @@ category_encoders
 
 # Outline
 Three models are used, a Naive Bayes Model, Logistic Regression and a Multilayer Perceptron; alternate variants are generated via pipelines.
+
 The initial NB model uses RobustScaler where features are centered and scaled independetly.
 Alternative NB models employ either a MinMaxScaler or StandardScaler
 The initial Logistic Regression model uses a lbfgs solver with the default l2 penalty
